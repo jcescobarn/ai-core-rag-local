@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ai-core"
+version = "0.1.0"
+description = "AI Core with hexagonal architecture & Local LLM"
+authors = ["jcescobarn"]
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+numpy = "<1.24"
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+pydantic = "^2.6.1"
+pydantic-settings = "^2.2.1"
+python-dotenv = "^1.0.1"
+openai = "^1.14.0"
+transformers = "^4.39.1"
+chromadb = "^0.4.22"
+redis = "^5.0.3"
+llama-cpp-python = "^0.2.20"  # ✅ necesario para modelos .gguf
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

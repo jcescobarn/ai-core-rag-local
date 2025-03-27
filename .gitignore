@@ -1,0 +1,56 @@
+# Entornos virtuales
+.venv/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Logs y dumps
+*.log
+*.sqlite3
+*.db
+*.dump
+
+# Archivos de pruebas
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Modelos LLM
+models/
+*.gguf
+*.bin
+
+# Datos
+data/
+*.csv
+*.json
+*.txt
+
+# Docker
+*.pid
+*.sock
+
+# Jupyter Notebooks (si en algún momento los usas)
+.ipynb_checkpoints/
+
+# Otros
+.DS_Store
+*.bak
+*.old
