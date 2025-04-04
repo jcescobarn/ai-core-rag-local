@@ -17,13 +17,15 @@ openai = "^1.14.0"
 transformers = "^4.39.1"
 chromadb = "^0.4.22"
 redis = "^5.0.3"
-llama-cpp-python = "^0.2.20"  # ✅ necesario para modelos .gguf
+llama-cpp-python = "^0.2.20"
+python-docx = "^0.8.11"
+PyMuPDF = "^1.21.1"
+nltk = "^3.8.1"
+sentence-transformers = "^2.2.2"
+fpdf = "^1.7.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^8.0.2"
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.3.5"
 
 [build-system]
 requires = ["poetry-core"]
